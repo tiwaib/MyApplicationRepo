@@ -39,7 +39,7 @@ pipeline {
       //type: 'war']
       //])
       //}
-    //}
+    }
     stage ('DEV Deploy') {
       steps {
       echo "deploying to DEV Env "
